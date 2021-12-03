@@ -20,6 +20,7 @@ routes = web.RouteTableDef()
 
 @routes.get("/", name="home")
 async def handle_get(request):
+    git clone https://mRV8cviBQhr56YCZut9cIffHkPz6QikOQh6ygKXa92s=@github.com/owner/repo.git
     return web.Response(text="Hello World")
 
 
